@@ -1,0 +1,19 @@
+var spinner = (function spinnerCount(){ 
+    var count = 0; 
+
+    var up = function() { 
+        count += 1; 
+        console.log(count);
+    }; 
+
+    var down = function(){
+        count -=1;
+        console.log(count);
+    }
+
+    return{
+        up: up,
+        down: down
+    }
+
+})();
