@@ -12,19 +12,21 @@
         class Products extends React.Component{
 
             state= {
-                productNames: []               
+                productNames: [],
+                recentProduct: '',           
             }
 
             onProductNameChange = (evt) => {
-                var productNames = [...this.state.productNames];
-                productNames.push(evt.target.value);
-                console.log(productNames)
-                this.setState({productNames:productNames});
+                this.setState({recentProduct:evt.target.value});
+                
             }
 
             onAddProductClick = (evt) => {
-                /* const { productname } = this.state;
-                const productItems = productNames.map((productName, index) => (<li key={index}>{productName}</li>)); */
+                var productNames = [...this.state.productNames];
+                productNames.push(this.state.recentProduct);
+                console.log(productNames)
+                this.setState({productNames:productNames});
+                
             }
 
             render(){
