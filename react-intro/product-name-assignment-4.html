@@ -17,6 +17,8 @@
 
             onProductNameChange = (evt) => {
                 var productNames = [...this.state.productNames];
+                productNames.push(evt.target.value);
+                console.log(productNames)
                 this.setState({productNames:productNames});
             }
 
