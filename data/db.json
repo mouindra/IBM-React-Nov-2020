@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Stationary"
+    },
+    {
+      "id": 2,
+      "name": "Grocery"
+    },
+    {
+      "id": 3,
+      "name": "Utencils"
+    },
+    {
+      "id": 4,
+      "name": "asa"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Pen",
+      "isOutOfStock": true,
+      "price": 10,
+      "category": 1,
+      "description": "Fugiat fugiat et reprehenderit magna consequat veniam consectetur cupidatat qui eiusmod laborum excepteur amet eiusmod. Culpa nostrud proident duis aliqua nostrud. Culpa est non magna aute cupidatat ut ut ex consequat. Eiusmod commodo Lorem anim sit nulla ullamco laborum ipsum esse minim cupidatat sit adipisicing deserunt."
+    },
+    {
+      "id": 2,
+      "name": "Pencil",
+      "isOutOfStock": false,
+      "price": 5,
+      "category": 1,
+      "description": "Ipsum anim dolore irure amet ut ullamco sint deserunt est eiusmod. Cupidatat excepteur sint exercitation laboris ut. Velit et voluptate irure dolore velit irure consequat Lorem aliqua non velit exercitation laborum."
+    },
+    {
+      "id": 3,
+      "name": "Lentil",
+      "isOutOfStock": true,
+      "price": 100,
+      "category": 2,
+      "description": "Pariatur do incididunt officia velit exercitation veniam consectetur dolore cupidatat anim. Adipisicing aute culpa aute non incididunt cillum esse amet non sint eu ad dolor amet. Ea amet proident excepteur do qui id pariatur consectetur aliquip velit cupidatat deserunt ullamco magna."
+    },
+    {
+      "id": 4,
+      "name": "Toaster",
+      "isOutOfStock": true,
+      "price": 800,
+      "category": 3,
+      "description": "Pariatur minim mollit eiusmod occaecat. Exercitation reprehenderit irure irure enim aliquip id qui fugiat nulla do. Proident et enim tempor tempor est eu mollit. Velit ea adipisicing culpa nostrud anim. Elit mollit sunt cupidatat ut in minim excepteur aliquip esse ullamco. Duis amet voluptate pariatur nisi sit officia mollit id veniam eiusmod veniam aliqua ullamco minim. Cupidatat fugiat ipsum deserunt qui culpa aute velit dolor sit nulla cillum."
+    },
+    {
+      "id": 6,
+      "name": "AS",
+      "description": "SDF",
+      "price": 12,
+      "isOutOfStock": false,
+      "category": 1
+    },
+    {
+      "id": 7,
+      "name": "A",
+      "description": "fg",
+      "price": 12,
+      "isOutOfStock": false,
+      "category": 2
+    }
+  ],
+  "cartItems": [
+    {
+      "id": 1,
+      "productId": 1,
+      "noOfItem": 2
+    },
+    {
+      "id": 2,
+      "productId": 2,
+      "noOfItem": 1
+    },
+    {
+      "id": 4,
+      "productId": 3,
+      "noOfItem": 4
+    },
+    {
+      "id": 5,
+      "productId": 4,
+      "noOfItem": 2
+    }
+  ]
+}

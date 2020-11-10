@@ -1,0 +1,49 @@
+body{ 
+    margin-left: 10px;
+}
+section{
+    margin-bottom: 10px;
+}
+.field{
+    margin-bottom:10px;
+}
+.edit label{
+    display : block;
+}
+section.edit {
+    padding : 10px;
+    border : 1px solid black;
+    width : 500px;
+}
+ol{ 
+    width : 500px;
+    list-style: none;
+    -webkit-padding-start: 0px;
+}
+li{ 
+    margin-bottom: 10px;
+    padding : 10px;
+    border-radius: 5px;
+    border : 1px solid gray;
+}
+.name {
+    font-size: 18pt;
+    padding-bottom: 5px;
+}
+.price {
+    font-size: 15pt;
+    font-style: italic;
+    font-weight: bold;
+    text-align: right;
+}
+.outofstock {
+    color : red;
+    text-decoration: line-through;
+    font-style: italic;
+}
+.stats{
+    font-size: 18pt;
+}
+.addtocart{
+    float: right;
+}

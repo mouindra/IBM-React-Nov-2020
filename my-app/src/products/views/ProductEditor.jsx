@@ -15,13 +15,11 @@ class ProductEditor extends Component {
     };
 
     onCategoryChange = (evt) => {
-        console.log(evt.target.value)
-        this.setState({ category: evt.target.value })
+        this.setState({ category: evt.target.selectedIndex })
     }
     render() {
-        const { categoriesData } = this.props;
-        console.log(categoriesData);
-        const categoryItems = categoriesData.map(category => (
+        const { categories } = this.props;
+        const categoryItems = categories.map(category => (
                             <option key={category.id} >{category.name}</option>
                             
                         ));
@@ -42,6 +40,7 @@ class ProductEditor extends Component {
                 <div className="field">
                     <label htmlFor="">Category</label>
                     <select onChange ={(e) => this.onCategoryChange(e)}>
+                        <option>---- Select ------</option>
                        {categoryItems}
                     </select>
                 </div>
